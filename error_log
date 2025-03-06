@@ -1,0 +1,5 @@
+[21-Apr-2021 08:34:02 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hotelbdtask/public_html/xainhotel/index.php on line 321
+[21-Apr-2021 08:36:27 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hotelbdtask/public_html/xainhotel/index.php on line 321
+[21-Apr-2021 08:36:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hotelbdtask/public_html/xainhotel/index.php on line 321
+[28-Apr-2021 12:58:17 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/hotelbdtask/public_html/xainhotel/index.php on line 321
+[25-May-2021 18:01:52 UTC] PHP Warning:  mysqli::__construct(): (08004/1040): Too many connections in /home/hotelbdtask/public_html/xainhotel/index.php on line 321

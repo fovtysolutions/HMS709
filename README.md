@@ -1,2 +1,1 @@
-# HMS709
-Hotel Management System
+Hotel Management
