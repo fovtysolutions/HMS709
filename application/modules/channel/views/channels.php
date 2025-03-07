@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard with Sidebar</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<style>
-    .channel{
-        display: flex;
-        justify-content: space-between;
-    }
-    .channel-add{
-        /* border: 1px solid black; */
-        /* border-radius: 10px;
-        margin: 2rem;
-        padding: 1rem; */ */
-        padding: 1rem;
-    /* margin: 2rem; */
-    border-radius: 10px;
-    border: 1px solid black;
-    }
-</style>
+
+
 <body class="bg-light">
 
 <div class="container py-4">
@@ -47,7 +23,7 @@
                 style="width:30%;" src="<?php echo base_url()?>/assets/img/channel-logos/agoda1.png" alt="">
             <!-- <div>logo</div> -->
             <!-- Add Button to Open Sidebar -->
-            <a class="btn btn-primary" href="manage-channels/agoda-ota-manage" ><i class="fa-solid fa-plus"></i> Add </a>
+            <a class="btn btn-primary" href="channel/agoda-ota-manage" ><i class="fa-solid fa-plus"></i> Add </a>
         </div>
         <div class="col-md-12 p-3 channel-add channel">
               <img id="image-preview"
@@ -75,5 +51,3 @@
 </div>
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-</body>
-</html>

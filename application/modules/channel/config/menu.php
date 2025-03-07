@@ -15,15 +15,7 @@ $HmvcMenu2["channel"] = array(
         
     ),
 
-    "manage-channels" => array(
-        //menu name
-            "controller" => "channel",
-            "method"     => "index",
-            "url"        => "manage-channels",
-            "permission" => "read"
-        
-    ),
-     "hallroom_status" => array(
+    "channel_manage" => array(
         //menu name
             "controller" => "channel",
             "method"     => "show",
@@ -31,6 +23,14 @@ $HmvcMenu2["channel"] = array(
             "permission" => "read"
         
     ),
+    //  "channels" => array(
+    //     //menu name
+    //         "controller" => "channel",
+    //         "method"     => "show",
+    //         "url"        => "hall_room/hallroom-type",
+    //         "permission" => "read"
+        
+    // ),
     // "hallroom_status" => array(
     //     //menu name
     //         "controller" => "channel",

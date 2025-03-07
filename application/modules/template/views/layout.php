@@ -45,6 +45,7 @@
         
                 <!--/.Content Header (Page header)-->
                 <div class="body-content">
+                  
                     <!-- <?php if(strtoupper($this->uri->segment(1)) != strtoupper(display('dashboard')) || strtoupper($title) != strtoupper(display('home'))){ ?>
                     <div class="content-header row align-items-center mb-4">
                         <?php } ?>
