@@ -1,17 +1,35 @@
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hall', 'Hall');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hall_room', 'Hall Room');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hallroom_booking', 'Hall Room Booking');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hallroom_type', 'Hall Room Type');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hallroom_assign', 'Hall Room Assign');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hallroom_facility', 'Hall Room Facility');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hallroom_status', 'Hall Room Status');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'seatplan', 'Seatplan');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'event_name', 'Event Name');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'event_type', 'Event Type');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'plan_name', 'Plan Name');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'hours', 'Hours');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'booked', 'Booked');
-INSERT INTO `language` (`phrase`, `english`) VALUES( 'refunded', 'Refunded');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'marketing_name', 'Markeing Name');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'select_channels', 'Select Channels');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'discount_in', 'Discount In %');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'select_off_type', 'Select Offer Type');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'stay_date', 'Stay Date');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'start_date', 'Start Date');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'end_date', 'End Date');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'submit', 'Submit');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'cancel', 'Cancel');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'no_end_date', 'No End Date');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'basic', ' Basic');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'email_mark', 'Email Marketing');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'marketing', 'Marketing');
+
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'booking_date', 'Booking Date');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'blackout', 'Do you want to blackout the offer for specific stay date ?');
+
+
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'blackout_dates', 'Choose Blackout Date');
+
+
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'only_member', 'Applicable only for Members ?');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'only_mobile_users', 'Applicable only for Mobile Users ?');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'all_the_room_rate_plan', 'Will the Marketing be applicable for all the room rate plan ?');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'basic_mark', 'Basic Marketing');
+
+
+
+
+
+
+
 ALTER TABLE `tbl_roomnofloorassign` ADD `hallid` INT(11) NULL DEFAULT NULL AFTER `roomid`;
 ALTER TABLE `tbl_roomnofloorassign` CHANGE `roomid` `roomid` INT(11) NULL DEFAULT NULL;
 ALTER TABLE `roomfaility_ref_accomodation` ADD `hallid` INT(11) NULL DEFAULT NULL AFTER `room_id`;

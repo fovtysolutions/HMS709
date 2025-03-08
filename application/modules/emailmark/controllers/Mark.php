@@ -7,7 +7,7 @@ class Mark  extends MX_Controller {
     {
         parent::__construct();
 		$this->load->model(array(
-			'channel_model',
+			'Marketing_model',
       // 'hotel_details'
 		));	
     }
@@ -31,58 +31,34 @@ class Mark  extends MX_Controller {
       echo Modules::run('template/layout', $data); 
    
     }
-    public function saveOnbording()
+    public function basicListadd()
     {
       // var_dump($this->input->server('REQUEST_METHOD') === 'POST');
         if ($this->input->server('REQUEST_METHOD') === 'POST') { // Check if request is POST
-            $otacode = $this->input->post('otacode');
-            // var_dump($otacode);
-            // **Check if OTA Code exists in channel_manager table**
-            if (!$this->channel_model->check_ota_exists($otacode)) {
-              
-                $this->session->set_flashdata('error', 'Invalid OTA Code!');
-                redirect('manage-channels/agoda-ota-manage/onboarding');
-                return;
-            }
+          
       
-            // **Prepare data array**
-            $data = array(
-              // 'otacode' => $this->input->post('otacode')
-                'hotel_name'    => $this->input->post('hotel_name'),
-                'hotel_id'      => $this->input->post('hotel_id'),
-                'hotel_catagory' => $this->input->post('hotel_catagory'),
-                'decription'    => $this->input->post('decription'),
-                'currency'      => $this->input->post('currency'),
-                'full_name'     => $this->input->post('full_name'),
-                'email'         => $this->input->post('email'),
-                'phomeNum'      => $this->input->post('phomeNum'),
-                'language'      => $this->input->post('language'),
-                'channels'      => $this->input->post('channels'),
-                'addr_line'     => $this->input->post('addr_line'),
-                'city_name'     => $this->input->post('city_name'),
-                'country'       => $this->input->post('country'),
-                'postel_code'   => $this->input->post('postel_code'),
-                'longitude'     => $this->input->post('longitude'),
-                'latitude'      => $this->input->post('latitude'),
-                'chk_in_time'   => $this->input->post('chk_in_time'),
-                'chk_in_out'    => $this->input->post('chk_in_out'),
-                'services'      => $this->input->post('services'),
-                'cncl_penalty_policy' => $this->input->post('cncl_penalty_policy'),
-                'max_infant_age' => $this->input->post('max_infant_age'),
-                'max_child_age' => $this->input->post('max_child_age'),
-                'night_num'     => $this->input->post('night_num'),
-                'ota_name'      => $this->input->post('ota_name'),
-                'otacode'       => $otacode // Same OTA Code as in `channel_manager`
-            );
+          $data = array(
+            'facilityname'          => $this->input->post('facilityname'),
+            'facilititypeyname'     => $this->input->post('facilititypeyname'),
+            'discount_in'           => $this->input->post('discount_in'),
+            'start_date'            => $this->input->post('start_date'),
+            'end_date'              => $this->input->post('end_date'),
+            'no_end_date'           => $this->input->post('no_end_date') ? 1 : 0,
+            'blackout_status'       => $this->input->post('blackout_status') == 'yes' ? 1 : 0,
+            'blackout_date'         => $this->input->post('blackout_date'),
+            'only_mobile_users'     => $this->input->post('only_mobile_users') ? 1 : 0,
+            'only_member'           => $this->input->post('only_member') ? 1 : 0,
+            'all_the_room_rate_plan'=> $this->input->post('all_the_room_rate_plan') ? 1 : 0,
+        );
    
             // **Insert hotel details**
-            if ($this->channel_model->insert_hotel_details($data)) {
+            if ($this->marketing->insert_marketing($data)) {
               var_dump($data);
-                $this->session->set_flashdata('success', 'Hotel details added successfully!');
-                redirect('manage-channels/agoda-ota-manage/onboarding');
+                $this->session->set_flashdata('success', 'M');
+                redirect('email-marketing/basic-marketing');
             } else {
                 $this->session->set_flashdata('error', 'Failed to add hotel details!');
-                redirect('manage-channels/agoda-ota-manage/adddetails');
+                // redirect('manage-channels/agoda-ota-manage/adddetails');
             }
         } else {
             show_error("Invalid request method.", 405);

@@ -1,4 +1,60 @@
 "use strict"
+
+
+function year() {
+    "use strict";
+    var start = $("#start_date").val();
+    var end = $("#end_date").val();
+    var start_year = start.split("-");
+    var end_year = end.split("-");
+    if (start_year[0] <= end_year[0]) {
+        $("#title").val(start_year[0] + "-" + end_year[0]);
+    } else {
+        swal({
+            title: "Failed",
+            text: "End year can not greater than start year",
+            type: "error",
+            confirmButtonColor: "#28a745",
+            confirmButtonText: "Ok",
+            closeOnConfirm: true
+        });
+        $("#start_date").val(end);
+        $("#start_date,#end_date").trigger("change");
+    }
+}
+
+    document.getElementById("no_end_date").addEventListener("change", function () {
+        var endDateGroup = document.getElementById("end_date_group");
+        if (this.checked) {
+            endDateGroup.style.display = "none";  // Hide End Date
+        } else {
+            endDateGroup.style.display = ""; // Show End Date
+        }
+    });
+
+$("#start_date,#end_date").trigger("change");
+function editfinyear(id){
+    "use strict";
+    var title = $('#title_'+id).text();
+    var start = $('#start_'+id).text();
+    var end = $('#end_'+id).text();
+    var status = $('#status_'+id).text();
+    if(status=="Active"){
+        $("input[name=status][value='2']").prop("checked",true);
+        $("input[name=status][value='0']").prop("checked",false);
+    }else{
+        $("input[name=status][value='2']").prop("checked",false);
+        $("input[name=status][value='0']").prop("checked",true);
+    }
+    $("#finid").val(id);
+    $("#title").val(title);
+    $("#start_date").val(start);
+    $("#end_date").val(end);
+    $("#start_date,#end_date").trigger("change");
+    $("#finsubmit").attr('hidden', false);
+    $("#submit").attr("hidden", true);
+    $("#finsubmit").attr("onclick", "updatefinyear()");
+}
 var base_url = $("#base_url").val();
 function fileValueOne(value) {
     'use strict';
@@ -276,4 +332,62 @@ $(document).ready(function () {
         });
         $("#grandtotal").text(grandTotal.toFixed(2));
     }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Select checkbox and end date group
+        var checkbox = document.getElementById("no_end_date");
+        var endDateGroup = document.getElementById("end_date_group");
+    
+        // Function to show/hide end date
+        function noDatefunct() {
+            if (checkbox.checked) {
+                endDateGroup.style.display = "none";  // Hide End Date
+            } else {
+                endDateGroup.style.display = "block"; // Show End Date
+            }
+        }
+    
+        // Attach event listener
+        checkbox.addEventListener("change", noDatefunct);
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var blackoutYes = document.getElementById("blackout_yes");
+        var blackoutNo = document.getElementById("blackout_no");
+        var blackoutDateGroup = document.getElementById("blackout_date_group");
+        var blackoutDate = document.getElementById("blackout_date");
+        var startDate = document.getElementById("start_date");
+        var endDate = document.getElementById("end_date");
+    
+        // Function to show/hide blackout date input
+        function toggleBlackoutDate() {
+            if (blackoutYes.checked) {
+                blackoutDateGroup.style.display = "block";
+            } else {
+                blackoutDateGroup.style.display = "none";
+                blackoutDate.value = ""; // Clear the input when hidden
+            }
+        }
+    
+        // Function to validate blackout date range
+        function validateBlackoutDate() {
+            var start = new Date(startDate.value);
+            var end = new Date(endDate.value);
+            var blackout = new Date(blackoutDate.value);
+    
+            if (blackout < start || blackout > end) {
+                alert("Blackout date must be between Start Date and End Date!");
+                blackoutDate.value = ""; // Clear invalid input
+            }
+        }
+    
+        // Attach event listeners
+        blackoutYes.addEventListener("change", toggleBlackoutDate);
+        blackoutNo.addEventListener("change", toggleBlackoutDate);
+        blackoutDate.addEventListener("change", validateBlackoutDate);
+    });
+    
+
 });
