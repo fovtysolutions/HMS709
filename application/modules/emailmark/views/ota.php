@@ -19,8 +19,8 @@
   </button>
 </p>
 <div class="collapse row" id="collapseExample">
-        <form class="w-100 row" action="<?php echo base_url('manage-channels/agoda-ota-manage/add'); ?>" method="POST">
-        <input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" value="<?=$this->security->get_csrf_hash();?>" />
+<form class="w-100" action="<?php echo base_url('manage-channels/agoda-ota-manage/add'); ?>" method="POST">
+<input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" value="<?=$this->security->get_csrf_hash();?>" />
 
      <div class="col-md-6">
         <div class="card w-100">
@@ -48,8 +48,8 @@
     <div class="col-md-6">
         <div class="card w-100 h-100">
             <div class="card-body ">
-                    <p class="m-0 card-title">Important Notes</p>
-                    <div class=" h-100 bg-light">
+                    <p class="card-title">Important Notes</p>
+                    <div class=" w-100 bg-light">
                         hello    
                     
                      </div>
