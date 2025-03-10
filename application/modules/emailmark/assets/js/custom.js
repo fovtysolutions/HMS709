@@ -1,6 +1,40 @@
 "use strict"
 
+document.addEventListener("DOMContentLoaded", function () {
+    var blackoutYes = document.getElementById("blackout_yes");
+    var blackoutNo = document.getElementById("blackout_no");
+    var blackoutDateGroup = document.getElementById("blackout_date_group");
+    var blackoutDate = document.getElementById("blackout_date");
+    var startDate = document.getElementById("start_date");
+    var endDate = document.getElementById("end_date");
 
+    // Function to show/hide blackout date input
+    function toggleBlackoutDate() {
+        if (blackoutYes.checked) {
+            blackoutDateGroup.style.display = "";
+        } else {
+            blackoutDateGroup.style.display = "none";
+            blackoutDate.value = ""; // Clear the input when hidden
+        }
+    }
+
+    // Function to validate blackout date range
+    function validateBlackoutDate() {
+        var start = new Date(startDate.value);
+        var end = new Date(endDate.value);
+        var blackout = new Date(blackoutDate.value);
+
+        if (blackout < start || blackout > end) {
+            alert("Blackout date must be between Start Date and End Date!");
+            blackoutDate.value = ""; // Clear invalid input
+        }
+    }
+
+    // Attach event listeners
+    blackoutYes.addEventListener("change", toggleBlackoutDate);
+    blackoutNo.addEventListener("change", toggleBlackoutDate);
+    blackoutDate.addEventListener("change", validateBlackoutDate);
+});
 function year() {
     "use strict";
     var start = $("#start_date").val();
@@ -334,26 +368,24 @@ $(document).ready(function () {
     }
 
     document.addEventListener("DOMContentLoaded", function () {
-        // Select checkbox and end date group
+        initToggleEndDate();
+        initBlackoutDate();
+    });
+    
+    // Function to toggle end date visibility
+    function initToggleEndDate() {
         var checkbox = document.getElementById("no_end_date");
         var endDateGroup = document.getElementById("end_date_group");
     
-        // Function to show/hide end date
-        function noDatefunct() {
-            if (checkbox.checked) {
-                endDateGroup.style.display = "none";  // Hide End Date
-            } else {
-                endDateGroup.style.display = "block"; // Show End Date
-            }
-        }
+        if (!checkbox || !endDateGroup) return; // Prevent errors if elements are missing
     
-        // Attach event listener
-        checkbox.addEventListener("change", noDatefunct);
-    });
-
-
-
-    document.addEventListener("DOMContentLoaded", function () {
+        checkbox.addEventListener("change", function () {
+            endDateGroup.style.display = checkbox.checked ? "none" : "block";
+        });
+    }
+    
+    // Function to manage blackout date visibility and validation
+    function initBlackoutDate() {
         var blackoutYes = document.getElementById("blackout_yes");
         var blackoutNo = document.getElementById("blackout_no");
         var blackoutDateGroup = document.getElementById("blackout_date_group");
@@ -361,17 +393,13 @@ $(document).ready(function () {
         var startDate = document.getElementById("start_date");
         var endDate = document.getElementById("end_date");
     
-        // Function to show/hide blackout date input
+        if (!blackoutYes || !blackoutNo || !blackoutDateGroup || !blackoutDate || !startDate || !endDate) return;
+    
         function toggleBlackoutDate() {
-            if (blackoutYes.checked) {
-                blackoutDateGroup.style.display = "block";
-            } else {
-                blackoutDateGroup.style.display = "none";
-                blackoutDate.value = ""; // Clear the input when hidden
-            }
+            blackoutDateGroup.style.display = blackoutYes.checked ? "block" : "none";
+            if (!blackoutYes.checked) blackoutDate.value = "";
         }
     
-        // Function to validate blackout date range
         function validateBlackoutDate() {
             var start = new Date(startDate.value);
             var end = new Date(endDate.value);
@@ -379,15 +407,15 @@ $(document).ready(function () {
     
             if (blackout < start || blackout > end) {
                 alert("Blackout date must be between Start Date and End Date!");
-                blackoutDate.value = ""; // Clear invalid input
+                blackoutDate.value = "";
             }
         }
     
-        // Attach event listeners
         blackoutYes.addEventListener("change", toggleBlackoutDate);
         blackoutNo.addEventListener("change", toggleBlackoutDate);
         blackoutDate.addEventListener("change", validateBlackoutDate);
-    });
+    }
+    
     
 
 });

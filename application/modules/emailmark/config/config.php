@@ -8,10 +8,12 @@ $HmvcConfig['emailmark']["_version"]   = 1.0;
 // only register tables are imported while installing the module
 $HmvcConfig['emailmark']['_database'] = true;
 $HmvcConfig['emailmark']["_tables"] = array( 
-	// 'channel_manager',
-	// 'hotel_details',
-	// 'tbl_hallroom_info',
-	// 'tbl_hallroom_seatplan'
+	 'marketing',
+	 'tb_multinights',
+	//  'tb_sameday',
+	'tb_eailybird',
+	// 'tb_dayofweek'
+	
 );
 
 $HmvcConfig['emailmark']["_extra_query"] = true;

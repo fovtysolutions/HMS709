@@ -7,7 +7,7 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <?php echo form_open('email-marketing/multi-nights-list'); ?>
+                    <?php echo form_open('email-marketing/eaily-bird-list'); ?>
                     <?php echo form_hidden('facilitytypeid', (!empty($intinfo->facilitytypeid)?$intinfo->facilitytypeid:null)) ?>
                     
                     <div class="form-group row">
@@ -28,17 +28,32 @@
                             <?php echo form_dropdown('select_channels',$facilitytype,'', 'class="selectpicker form-control" data-live-search="true" id="select_channels"') ?>
                         </div>
                     </div>
-                    
+                    <div class="modal-header">
+                    <strong >Select Offer Type </strong>
                     <div class="form-group row">
-                        <label for="discount_in" class="col-sm-4 col-form-label">
-                            <?php echo display('discount_in') ?> <span class="text-danger">*</span>
-                        </label>
-                        <div class="col-sm-8">
-                            <input name="discount_in" autocomplete="off" class="form-control" type="text"
-                                placeholder="<?php echo display('discount_in') ?>" id="discount_in" value="" required>
+                           
+                           
+                            <div class="col-sm-12">
+                                <div class="" role="group" aria-label="Offer Type">
+                                    <button type="button" class="btn btn-outline-primary active" id="percentageBtn">Percentage</button>
+                                    <button type="button" class="btn btn-outline-primary" id="fixedBtn">Fixed</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-            
+               </div>
+                        
+
+                        <div class="form-group row mt-3">
+                            <label for="discount_in" class="col-sm-4 col-form-label">
+                                Discount <span class="text-danger">*</span>
+                            </label>
+                            <div class="col-sm-8 gap-3">
+                                <input name="discount_in" autocomplete="off" class="form-control" type="text"
+                                    placeholder="Discount in %" id="discount_in" required>
+                                <input type="hidden" name="discount_type" id="discount_type" value="percentage">
+                            </div>
+                        </div>
+                                    
                      <div class="modal-header">
                                                     <strong><?php echo display('stay_date'); ?></strong>
                                                     <div class="form-group gap-2 row text-end">
@@ -88,15 +103,25 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                  <div class="modal-header">
-                                                    <strong><?php echo display('is_recurring'); ?></strong>
-                                                    <div class="form-group gap-2 row text-end">
-                                                        <input type="checkbox" id="is_recurring" name="is_recurring"> 
-                                                        
-                                                    </div>
-                                            </div> 
-                                        
+                                        <div class="form-group row">
+                                          
+                                            <strong class="col-sm-12">Advance Booking Days </span>
+                                            </strong>
+                                            <div class="col-sm-8 d-flex align-items-center">
+                                               
+                                                 <label for="maximum" class="col-sm-4 col-form-label">
+                                                 Less Than
+                                                </label>
+                                                <select name="advance_booking_days" id="advance_booking_days" class="form-control">
+                                                    <?php 
+                                                        for ($i = 1; $i <= 100; $i++) {
+                                                            echo "<option value='$i'>$i</option>";
+                                                        }
+                                                    ?>
+                                                </select>
+                                            </div>
+                                        </div>
+                                 
                                         <div class="modal-header">
                                             <div class="form-group row">
                                                 <strong class="col-sm-12"><?php echo display('blackout'); ?></strong>
@@ -236,3 +261,4 @@
     </div>
 </div>
 <script src="<?php echo MOD_URL.$module;?>/assets/js/custom.js" type="text/javascript"></script>
+<script src="<?php echo MOD_URL.$module;?>/assets/js/eailybird.js" type="text/javascript"></script>

@@ -1,53 +1,95 @@
-<link rel="stylesheet" href="<?php echo MOD_URL.$module;?>/assets/css/custom2.css">
-<!-- Font Awesome (Icons Library) -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-<div class="container py-4">
-       
-<div class="row gap-2 justify-content-between ">
-       <div class="card-header col-md-12">
-            <h5>Email Mark</h5>
-        </div>
-        <!-- <hr> -->
-  
-      <div class="col-md-2  Card bg-light p-3" style="border:1px solid #563a81">
-        <div class="py-2 " >
-          <i class="fa-solid fa-plus mark-icon"></i> 
-        </div>
-        <div>
-          <p class="mark-card-text">Basic</p>
-        </div>
-      </div>
-      <div class="col-md-2  Card bg-light p-3" style="border:1px solid #563a81">
-        <div class="py-2 " >
-          <i class="fa-solid fa-plus mark-icon"></i> 
-        </div>
-        <div>
-          <p class="mark-card-text">Early Bird</p>
-        </div>
-      </div>
-      <div class="col-md-2  Card bg-light p-3" style="border:1px solid #563a81">
-        <div class="py-2 " >
-          <i class="fa-solid fa-plus mark-icon"></i> 
-        </div>
-        <div>
-          <p class="mark-card-text">Day of Week</p>
-        </div>
-      </div>
-      <div class="col-md-2  Card bg-light p-3" style="border:1px solid #563a81">
-        <div class="py-2 " >
-          <i class="fa-solid fa-plus mark-icon"></i> 
-        </div>
-        <div>
-          <p class="mark-card-text">Same Day</p>
-        </div>
-      </div>
-      <div class="col-md-2  Card bg-light p-3" style="border:1px solid #563a81">
-        <div class="py-2 " >
-          <i class="fa-solid fa-plus mark-icon"></i> 
-        </div>
-        <div>
-          <p class="mark-card-text">Basic</p>
-        </div>
-      </div>
+
+<div>
+  <div><h3>Email Marketing</h3></div>
 </div>
-</div>
+<div class="row">
+     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" onclick="window.location.href='<?= base_url('email-marketing/basic-marketing'); ?>'" style="cursor: pointer;">
+         <div class="card card-stats statistic-box mb-4">
+             <div
+                 class="card-header card-header-warning card-header-icon position-relative border-0 text-right px-3 py-0">
+                 <div class="card-icon d-flex align-items-center justify-content-center">
+                     <i class="material-icons"><?php echo display('today')?></i>
+                 </div>
+                 <p class="card-category text-uppercase fs-10 font-weight-bold text-muted">
+                     <?php echo display('basic') ?></p>
+                 <!-- <h3 class="card-title fs-18 font-weight-bold"><?php echo html_escape($todaybooking);?> -->
+                 </h3>
+             </div>
+             <div class="card-footer p-3">
+                 <div class="stats">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" onclick="window.location.href='<?= base_url('email-marketing/multi-nights'); ?>'" style="cursor: pointer;">
+         <div class="card card-stats statistic-box mb-4">
+             <div
+                 class="card-header card-header-success card-header-icon position-relative border-0 text-right px-3 py-0">
+                 <div class="card-icon d-flex align-items-center justify-content-center">
+                     <i class="material-icons"><?php echo display('attach_money_icon')?></i>
+                 </div>
+                 <p class="card-category text-uppercase fs-10 font-weight-bold text-muted">
+                     <?php echo display('multi_nights') ?></p>
+                 <h3 class="card-title fs-21 font-weight-bold"><?php echo html_escape((!empty($totalamount)?$totalamount:0));?></h3>
+             </div>
+             <div class="card-footer p-3">
+                 <div class="stats">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" onclick="window.location.href='<?= base_url('email-marketing/eaily-bird'); ?>'" style="cursor: pointer;">
+         <div class="card card-stats statistic-box mb-4">
+             <div
+                 class="card-header card-header-danger card-header-icon position-relative border-0 text-right px-3 py-0">
+                 <div class="card-icon d-flex align-items-center justify-content-center">
+                     <i class="material-icons"><?php echo display('account_circle_icon')?></i>
+                 </div>
+                 <p class="card-category text-uppercase fs-10 font-weight-bold text-muted">
+                     <?php echo display('eaily_bird') ?></p>
+                 <h3 class="card-title fs-21 font-weight-bold"><?php echo html_escape($totalcustomer);?></h3>
+             </div>
+             <div class="card-footer p-3">
+                 <div class="stats">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" onclick="window.location.href='<?= base_url('email-marketing/same-day'); ?>'" style="cursor: pointer;">
+         <div class="card card-stats statistic-box mb-4">
+             <div class="card-header card-header-info card-header-icon position-relative border-0 text-right px-3 py-0">
+                 <div class="card-icon d-flex align-items-center justify-content-center">
+                     <i class="material-icons"><?php echo display('date_range_icon')?></i>
+                 </div>
+                 <p class="card-category text-uppercase fs-10 font-weight-bold text-muted">
+                     <?php echo display('same_day') ?></p>
+                 <h3 class="card-title fs-21 font-weight-bold"><?php echo html_escape($totalorder);?></h3>
+             </div>
+             <div class="card-footer p-3">
+                 <div class="stats">
+                 </div>
+             </div>
+         </div>
+     </div>
+     <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" onclick="window.location.href='<?= base_url('email-marketing/day-of-week'); ?>'" style="cursor: pointer;">
+         <div class="card card-stats statistic-box mb-4">
+             <div class="card-header card-header-info card-header-icon position-relative border-0 text-right px-3 py-0">
+                 <div class="card-icon d-flex align-items-center justify-content-center">
+                     <i class="material-icons"><?php echo display('date_range_icon')?></i>
+                 </div>
+                 <p class="card-category text-uppercase fs-10 font-weight-bold text-muted">
+                     <?php echo display('same_day') ?></p>
+                 <h3 class="card-title fs-21 font-weight-bold"><?php echo html_escape($totalorder);?></h3>
+             </div>
+             <div class="card-footer p-3">
+                 <div class="stats">
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+ <script src="<?php echo MOD_URL.$module;?>/assets/js/mark.js" type="text/javascript"></script>
+ <!-- <script src="<?php echo MOD_URL.$module;?>/assets/js/barchart.js"></script>
+ <script src="<?php echo MOD_URL.$module;?>/assets/js/apexcharts.min.js"></script>
+ <script src="<?php echo MOD_URL.$module;?>/assets/js/apexcharts.active.js"></script> -->

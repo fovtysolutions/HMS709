@@ -17,14 +17,21 @@ INSERT INTO `language` (`phrase`, `english`) VALUES( 'blackout', 'Do you want to
 
 
 INSERT INTO `language` (`phrase`, `english`) VALUES( 'blackout_dates', 'Choose Blackout Date');
-
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'is_recurring', 'Is Recurring ?');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'length_of_stay', 'Length of Stay');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'min', 'Minimum');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'maximum', 'Maximum');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'app_night', 'Applicable night');
 
 INSERT INTO `language` (`phrase`, `english`) VALUES( 'only_member', 'Applicable only for Members ?');
 INSERT INTO `language` (`phrase`, `english`) VALUES( 'only_mobile_users', 'Applicable only for Mobile Users ?');
 INSERT INTO `language` (`phrase`, `english`) VALUES( 'all_the_room_rate_plan', 'Will the Marketing be applicable for all the room rate plan ?');
 INSERT INTO `language` (`phrase`, `english`) VALUES( 'basic_mark', 'Basic Marketing');
-
-
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'basic_mark', 'Basic Marketing');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'eaily_bird', 'Eairy Bird');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'day_of_week', 'Day of Week');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'same_day', 'Same Day');
+INSERT INTO `language` (`phrase`, `english`) VALUES( 'multi_nights', 'Multi Nights');
 
 
 
