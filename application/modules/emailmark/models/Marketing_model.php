@@ -20,6 +20,7 @@ class Marketing_model extends CI_Model {
     public function insert_multynights($data) {
         return $this->db->insert('tb_multinights', $data);
     }
+   
 
     public function get_all_nights() {
        
@@ -35,7 +36,9 @@ class Marketing_model extends CI_Model {
         return $this->db->get()->result();
     }
     
-    
+    public function delete_night($id) {
+        return $this->db->where('id', $id)->delete('tb_multinights');
+    }
 
 }
 

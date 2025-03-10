@@ -50012,3 +50012,926 @@ DEBUG - 2025-03-10 19:51:36 --> File loaded: C:\xampp\htdocs\HMS709\application\
 DEBUG - 2025-03-10 19:51:36 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
 INFO - 2025-03-10 19:51:36 --> Final output sent to browser
 DEBUG - 2025-03-10 19:51:36 --> Total execution time: 0.2052
+INFO - 2025-03-10 15:04:17 --> Config Class Initialized
+INFO - 2025-03-10 15:04:17 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:18 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:18 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:18 --> URI Class Initialized
+DEBUG - 2025-03-10 15:04:18 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:04:18 --> Router Class Initialized
+INFO - 2025-03-10 15:04:18 --> Output Class Initialized
+INFO - 2025-03-10 15:04:18 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:18 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:18 --> Input Class Initialized
+INFO - 2025-03-10 15:04:18 --> Language Class Initialized
+INFO - 2025-03-10 15:04:18 --> Language Class Initialized
+INFO - 2025-03-10 15:04:18 --> Config Class Initialized
+INFO - 2025-03-10 15:04:18 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:18 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:18 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:18 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:18 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:18 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:18 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:18 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:18 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:18 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:18 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:18 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:18 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:18 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:04:18 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:18 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:18 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+DEBUG - 2025-03-10 20:04:18 --> File loaded: C:\xampp\htdocs\HMS709\application\controllers/../modules/template/controllers/Template.php
+DEBUG - 2025-03-10 20:04:18 --> Template MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:18 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/models/Template_model.php
+DEBUG - 2025-03-10 20:04:19 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/head.php
+ERROR - 2025-03-10 20:04:22 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+ERROR - 2025-03-10 20:04:22 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+DEBUG - 2025-03-10 20:04:22 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/sidebar.php
+ERROR - 2025-03-10 20:04:22 --> Severity: Warning --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+ERROR - 2025-03-10 20:04:22 --> Severity: Warning --> file_get_contents(https://update.bdtask.com/xainhotel/autoupdate/update_info): Failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+DEBUG - 2025-03-10 20:04:23 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/header.php
+DEBUG - 2025-03-10 20:04:23 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/messages.php
+ERROR - 2025-03-10 20:04:23 --> Severity: Warning --> Undefined variable $facilitytype C:\xampp\htdocs\HMS709\application\modules\emailmark\views\nights.php 28
+DEBUG - 2025-03-10 20:04:24 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/views/nights.php
+DEBUG - 2025-03-10 20:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/footer.php
+DEBUG - 2025-03-10 20:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/layout.php
+INFO - 2025-03-10 20:04:25 --> Final output sent to browser
+DEBUG - 2025-03-10 20:04:25 --> Total execution time: 7.2211
+INFO - 2025-03-10 15:04:25 --> Config Class Initialized
+INFO - 2025-03-10 15:04:25 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:25 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:25 --> URI Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:04:25 --> Router Class Initialized
+INFO - 2025-03-10 15:04:25 --> Output Class Initialized
+INFO - 2025-03-10 15:04:25 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:25 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:25 --> Input Class Initialized
+INFO - 2025-03-10 15:04:25 --> Language Class Initialized
+INFO - 2025-03-10 15:04:25 --> Language Class Initialized
+INFO - 2025-03-10 15:04:25 --> Config Class Initialized
+INFO - 2025-03-10 15:04:25 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:25 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:25 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:25 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:25 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:25 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:25 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:25 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:25 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:25 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:25 --> Config Class Initialized
+INFO - 2025-03-10 15:04:25 --> Hooks Class Initialized
+INFO - 2025-03-10 15:04:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:25 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:25 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:25 --> URI Class Initialized
+INFO - 2025-03-10 15:04:25 --> Router Class Initialized
+INFO - 2025-03-10 15:04:25 --> Output Class Initialized
+INFO - 2025-03-10 15:04:25 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:25 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:25 --> Input Class Initialized
+INFO - 2025-03-10 15:04:25 --> Language Class Initialized
+DEBUG - 2025-03-10 15:04:25 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+ERROR - 2025-03-10 15:04:25 --> 404 Page Not Found: /index
+INFO - 2025-03-10 15:04:25 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:25 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+DEBUG - 2025-03-10 20:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\controllers/../modules/template/controllers/Template.php
+DEBUG - 2025-03-10 20:04:25 --> Template MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:25 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/models/Template_model.php
+INFO - 2025-03-10 15:04:26 --> Config Class Initialized
+INFO - 2025-03-10 15:04:26 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:26 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:26 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:26 --> URI Class Initialized
+INFO - 2025-03-10 15:04:26 --> Router Class Initialized
+INFO - 2025-03-10 15:04:26 --> Output Class Initialized
+INFO - 2025-03-10 15:04:26 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:26 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:26 --> Input Class Initialized
+INFO - 2025-03-10 15:04:26 --> Language Class Initialized
+INFO - 2025-03-10 15:04:26 --> Language Class Initialized
+INFO - 2025-03-10 15:04:26 --> Config Class Initialized
+INFO - 2025-03-10 15:04:26 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:26 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:26 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:26 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:26 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:26 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:26 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:26 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:26 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:26 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:26 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:26 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:26 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:26 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:04:26 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:26 --> Order MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:26 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Order_model.php
+DEBUG - 2025-03-10 20:04:26 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Logs_model.php
+DEBUG - 2025-03-10 20:04:26 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/head.php
+INFO - 2025-03-10 15:04:27 --> Config Class Initialized
+INFO - 2025-03-10 15:04:27 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:27 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:27 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:27 --> URI Class Initialized
+INFO - 2025-03-10 15:04:27 --> Router Class Initialized
+INFO - 2025-03-10 15:04:27 --> Output Class Initialized
+INFO - 2025-03-10 15:04:27 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:27 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:28 --> CSRF token verified
+INFO - 2025-03-10 15:04:28 --> Input Class Initialized
+INFO - 2025-03-10 15:04:28 --> Language Class Initialized
+INFO - 2025-03-10 15:04:28 --> Language Class Initialized
+INFO - 2025-03-10 15:04:28 --> Config Class Initialized
+INFO - 2025-03-10 15:04:28 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:28 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:28 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:28 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:28 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:28 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:28 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:28 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:28 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:28 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:28 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:28 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:28 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:28 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:04:28 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:28 --> Shift_management MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:28 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/models/Shift_model.php
+DEBUG - 2025-03-10 20:04:28 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
+INFO - 2025-03-10 20:04:28 --> Final output sent to browser
+DEBUG - 2025-03-10 20:04:28 --> Total execution time: 0.2172
+ERROR - 2025-03-10 20:04:30 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+ERROR - 2025-03-10 20:04:30 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+DEBUG - 2025-03-10 20:04:30 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/sidebar.php
+ERROR - 2025-03-10 20:04:30 --> Severity: Warning --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+ERROR - 2025-03-10 20:04:30 --> Severity: Warning --> file_get_contents(https://update.bdtask.com/xainhotel/autoupdate/update_info): Failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+DEBUG - 2025-03-10 20:04:30 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/header.php
+DEBUG - 2025-03-10 20:04:30 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/messages.php
+ERROR - 2025-03-10 20:04:30 --> Severity: Warning --> Undefined variable $facilitytype C:\xampp\htdocs\HMS709\application\modules\emailmark\views\nights.php 28
+DEBUG - 2025-03-10 20:04:32 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/views/nights.php
+DEBUG - 2025-03-10 20:04:32 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/footer.php
+DEBUG - 2025-03-10 20:04:32 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/layout.php
+INFO - 2025-03-10 20:04:32 --> Final output sent to browser
+DEBUG - 2025-03-10 20:04:32 --> Total execution time: 7.2957
+INFO - 2025-03-10 15:04:32 --> Config Class Initialized
+INFO - 2025-03-10 15:04:32 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:32 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:32 --> URI Class Initialized
+INFO - 2025-03-10 15:04:32 --> Router Class Initialized
+INFO - 2025-03-10 15:04:32 --> Output Class Initialized
+INFO - 2025-03-10 15:04:32 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:32 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:32 --> Input Class Initialized
+INFO - 2025-03-10 15:04:32 --> Language Class Initialized
+ERROR - 2025-03-10 15:04:32 --> 404 Page Not Found: /index
+INFO - 2025-03-10 15:04:32 --> Config Class Initialized
+INFO - 2025-03-10 15:04:32 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:32 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:32 --> URI Class Initialized
+INFO - 2025-03-10 15:04:32 --> Router Class Initialized
+INFO - 2025-03-10 15:04:32 --> Output Class Initialized
+INFO - 2025-03-10 15:04:32 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:32 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:32 --> Input Class Initialized
+INFO - 2025-03-10 15:04:32 --> Language Class Initialized
+INFO - 2025-03-10 15:04:32 --> Language Class Initialized
+INFO - 2025-03-10 15:04:32 --> Config Class Initialized
+INFO - 2025-03-10 15:04:32 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:32 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:32 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:32 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:32 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:32 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:32 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:32 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:32 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:32 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:32 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:32 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:32 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:04:32 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:32 --> Order MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:32 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Order_model.php
+DEBUG - 2025-03-10 20:04:32 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Logs_model.php
+INFO - 2025-03-10 15:04:33 --> Config Class Initialized
+INFO - 2025-03-10 15:04:33 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:04:33 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:04:33 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:04:33 --> URI Class Initialized
+INFO - 2025-03-10 15:04:33 --> Router Class Initialized
+INFO - 2025-03-10 15:04:33 --> Output Class Initialized
+INFO - 2025-03-10 15:04:33 --> Security Class Initialized
+DEBUG - 2025-03-10 15:04:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:04:33 --> CSRF cookie sent
+INFO - 2025-03-10 15:04:33 --> CSRF token verified
+INFO - 2025-03-10 15:04:33 --> Input Class Initialized
+INFO - 2025-03-10 15:04:33 --> Language Class Initialized
+INFO - 2025-03-10 15:04:33 --> Language Class Initialized
+INFO - 2025-03-10 15:04:33 --> Config Class Initialized
+INFO - 2025-03-10 15:04:33 --> Loader Class Initialized
+INFO - 2025-03-10 15:04:33 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:04:33 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:04:33 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:04:33 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:04:33 --> Email Class Initialized
+DEBUG - 2025-03-10 15:04:33 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:04:33 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:04:33 --> Encryption Class Initialized
+INFO - 2025-03-10 15:04:33 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:04:33 --> Cart Class Initialized
+INFO - 2025-03-10 15:04:33 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:04:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:04:33 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:04:33 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:04:33 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:04:33 --> Shift_management MX_Controller Initialized
+DEBUG - 2025-03-10 20:04:33 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/models/Shift_model.php
+DEBUG - 2025-03-10 20:04:33 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
+INFO - 2025-03-10 20:04:33 --> Final output sent to browser
+DEBUG - 2025-03-10 20:04:33 --> Total execution time: 0.1450
+INFO - 2025-03-10 15:09:53 --> Config Class Initialized
+INFO - 2025-03-10 15:09:53 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:09:53 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:09:53 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:09:53 --> URI Class Initialized
+DEBUG - 2025-03-10 15:09:53 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:09:53 --> Router Class Initialized
+INFO - 2025-03-10 15:09:53 --> Output Class Initialized
+INFO - 2025-03-10 15:09:53 --> Security Class Initialized
+DEBUG - 2025-03-10 15:09:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:09:53 --> CSRF cookie sent
+INFO - 2025-03-10 15:09:53 --> Input Class Initialized
+INFO - 2025-03-10 15:09:53 --> Language Class Initialized
+INFO - 2025-03-10 15:09:53 --> Language Class Initialized
+INFO - 2025-03-10 15:09:53 --> Config Class Initialized
+INFO - 2025-03-10 15:09:53 --> Loader Class Initialized
+INFO - 2025-03-10 15:09:53 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:09:53 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:09:53 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:09:53 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:09:53 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:09:53 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:09:54 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:09:54 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:09:54 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:09:54 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:09:54 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:09:54 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:09:54 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:09:54 --> Email Class Initialized
+DEBUG - 2025-03-10 15:09:54 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:09:54 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:09:54 --> Encryption Class Initialized
+INFO - 2025-03-10 15:09:54 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:09:54 --> Cart Class Initialized
+INFO - 2025-03-10 15:09:54 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:09:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:09:54 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:09:54 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:09:54 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:09:54 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:09:54 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+DEBUG - 2025-03-10 20:09:54 --> File loaded: C:\xampp\htdocs\HMS709\application\controllers/../modules/template/controllers/Template.php
+DEBUG - 2025-03-10 20:09:54 --> Template MX_Controller Initialized
+DEBUG - 2025-03-10 20:09:54 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/models/Template_model.php
+DEBUG - 2025-03-10 20:09:55 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/head.php
+ERROR - 2025-03-10 20:09:57 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+ERROR - 2025-03-10 20:09:57 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+DEBUG - 2025-03-10 20:09:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/sidebar.php
+ERROR - 2025-03-10 20:09:58 --> Severity: Warning --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+ERROR - 2025-03-10 20:09:58 --> Severity: Warning --> file_get_contents(https://update.bdtask.com/xainhotel/autoupdate/update_info): Failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+DEBUG - 2025-03-10 20:09:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/header.php
+DEBUG - 2025-03-10 20:09:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/messages.php
+ERROR - 2025-03-10 20:09:58 --> Severity: Warning --> Undefined variable $facilitytype C:\xampp\htdocs\HMS709\application\modules\emailmark\views\nights.php 28
+DEBUG - 2025-03-10 20:09:59 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/views/nights.php
+DEBUG - 2025-03-10 20:10:00 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/footer.php
+DEBUG - 2025-03-10 20:10:00 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/layout.php
+INFO - 2025-03-10 20:10:00 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:00 --> Total execution time: 6.2959
+INFO - 2025-03-10 15:10:00 --> Config Class Initialized
+INFO - 2025-03-10 15:10:00 --> Hooks Class Initialized
+INFO - 2025-03-10 15:10:00 --> Config Class Initialized
+INFO - 2025-03-10 15:10:00 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:00 --> Utf8 Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:00 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:00 --> URI Class Initialized
+INFO - 2025-03-10 15:10:00 --> URI Class Initialized
+INFO - 2025-03-10 15:10:00 --> Router Class Initialized
+INFO - 2025-03-10 15:10:00 --> Router Class Initialized
+INFO - 2025-03-10 15:10:00 --> Output Class Initialized
+INFO - 2025-03-10 15:10:00 --> Output Class Initialized
+INFO - 2025-03-10 15:10:00 --> Security Class Initialized
+INFO - 2025-03-10 15:10:00 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-03-10 15:10:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:00 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:00 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:00 --> Input Class Initialized
+INFO - 2025-03-10 15:10:00 --> Input Class Initialized
+INFO - 2025-03-10 15:10:00 --> Language Class Initialized
+INFO - 2025-03-10 15:10:00 --> Language Class Initialized
+ERROR - 2025-03-10 15:10:00 --> 404 Page Not Found: /index
+INFO - 2025-03-10 15:10:00 --> Language Class Initialized
+INFO - 2025-03-10 15:10:00 --> Config Class Initialized
+INFO - 2025-03-10 15:10:00 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:00 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:00 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:00 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:00 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:00 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:00 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:00 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:00 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:00 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:00 --> Order MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:00 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Order_model.php
+DEBUG - 2025-03-10 20:10:00 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Logs_model.php
+INFO - 2025-03-10 15:10:00 --> Config Class Initialized
+INFO - 2025-03-10 15:10:00 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:00 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:00 --> URI Class Initialized
+INFO - 2025-03-10 15:10:00 --> Router Class Initialized
+INFO - 2025-03-10 15:10:00 --> Output Class Initialized
+INFO - 2025-03-10 15:10:00 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:00 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:00 --> CSRF token verified
+INFO - 2025-03-10 15:10:00 --> Input Class Initialized
+INFO - 2025-03-10 15:10:00 --> Language Class Initialized
+INFO - 2025-03-10 15:10:00 --> Language Class Initialized
+INFO - 2025-03-10 15:10:00 --> Config Class Initialized
+INFO - 2025-03-10 15:10:00 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:00 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:00 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:00 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:00 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:00 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:00 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:00 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:00 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:00 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:01 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:01 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:01 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:01 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:01 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:01 --> Shift_management MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:01 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/models/Shift_model.php
+DEBUG - 2025-03-10 20:10:01 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
+INFO - 2025-03-10 20:10:01 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:01 --> Total execution time: 0.2141
+INFO - 2025-03-10 15:10:05 --> Config Class Initialized
+INFO - 2025-03-10 15:10:05 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:05 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:05 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:05 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:05 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:10:05 --> Router Class Initialized
+INFO - 2025-03-10 15:10:05 --> Output Class Initialized
+INFO - 2025-03-10 15:10:05 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:05 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:05 --> Input Class Initialized
+INFO - 2025-03-10 15:10:05 --> Language Class Initialized
+INFO - 2025-03-10 15:10:05 --> Language Class Initialized
+INFO - 2025-03-10 15:10:05 --> Config Class Initialized
+INFO - 2025-03-10 15:10:05 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:05 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:05 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:05 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:05 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:05 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:05 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:05 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:05 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:05 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:05 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:05 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:05 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:05 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:05 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:05 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:05 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+INFO - 2025-03-10 20:10:05 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:05 --> Total execution time: 0.2006
+INFO - 2025-03-10 15:10:41 --> Config Class Initialized
+INFO - 2025-03-10 15:10:41 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:41 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:41 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:10:41 --> Router Class Initialized
+INFO - 2025-03-10 15:10:41 --> Output Class Initialized
+INFO - 2025-03-10 15:10:41 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:41 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:41 --> Input Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language Class Initialized
+INFO - 2025-03-10 15:10:41 --> Config Class Initialized
+INFO - 2025-03-10 15:10:41 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:41 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:41 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:41 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:41 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:41 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:41 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:41 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:41 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:41 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:41 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:41 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+INFO - 2025-03-10 15:10:41 --> Config Class Initialized
+INFO - 2025-03-10 15:10:41 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:41 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:41 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:10:41 --> Router Class Initialized
+INFO - 2025-03-10 15:10:41 --> Output Class Initialized
+INFO - 2025-03-10 15:10:41 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:41 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:41 --> Input Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language Class Initialized
+INFO - 2025-03-10 15:10:41 --> Config Class Initialized
+INFO - 2025-03-10 15:10:41 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:41 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:41 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:41 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:41 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:41 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:41 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:41 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:41 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:41 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:41 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:41 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:41 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:41 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:41 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+DEBUG - 2025-03-10 20:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\controllers/../modules/template/controllers/Template.php
+DEBUG - 2025-03-10 20:10:41 --> Template MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:41 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/models/Template_model.php
+DEBUG - 2025-03-10 20:10:42 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/head.php
+ERROR - 2025-03-10 20:10:45 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+ERROR - 2025-03-10 20:10:45 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+DEBUG - 2025-03-10 20:10:45 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/sidebar.php
+ERROR - 2025-03-10 20:10:45 --> Severity: Warning --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+ERROR - 2025-03-10 20:10:45 --> Severity: Warning --> file_get_contents(https://update.bdtask.com/xainhotel/autoupdate/update_info): Failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+DEBUG - 2025-03-10 20:10:45 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/header.php
+DEBUG - 2025-03-10 20:10:46 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/messages.php
+ERROR - 2025-03-10 20:10:46 --> Severity: Warning --> Undefined variable $facilitytype C:\xampp\htdocs\HMS709\application\modules\emailmark\views\nights.php 28
+DEBUG - 2025-03-10 20:10:46 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/views/nights.php
+DEBUG - 2025-03-10 20:10:47 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/footer.php
+DEBUG - 2025-03-10 20:10:47 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/layout.php
+INFO - 2025-03-10 20:10:47 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:47 --> Total execution time: 5.8151
+INFO - 2025-03-10 15:10:47 --> Config Class Initialized
+INFO - 2025-03-10 15:10:47 --> Hooks Class Initialized
+INFO - 2025-03-10 15:10:47 --> Config Class Initialized
+INFO - 2025-03-10 15:10:47 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:47 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:47 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:47 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:47 --> URI Class Initialized
+INFO - 2025-03-10 15:10:47 --> Router Class Initialized
+INFO - 2025-03-10 15:10:47 --> Output Class Initialized
+INFO - 2025-03-10 15:10:47 --> Router Class Initialized
+INFO - 2025-03-10 15:10:47 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:47 --> Output Class Initialized
+INFO - 2025-03-10 15:10:47 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:47 --> Input Class Initialized
+INFO - 2025-03-10 15:10:47 --> Language Class Initialized
+INFO - 2025-03-10 15:10:47 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2025-03-10 15:10:47 --> 404 Page Not Found: /index
+INFO - 2025-03-10 15:10:47 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:47 --> Input Class Initialized
+INFO - 2025-03-10 15:10:47 --> Language Class Initialized
+INFO - 2025-03-10 15:10:47 --> Language Class Initialized
+INFO - 2025-03-10 15:10:47 --> Config Class Initialized
+INFO - 2025-03-10 15:10:47 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:47 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:47 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:47 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:47 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:47 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:47 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:47 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:47 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:47 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:47 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:47 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:47 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:47 --> Order MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:47 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Order_model.php
+DEBUG - 2025-03-10 20:10:47 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Logs_model.php
+INFO - 2025-03-10 15:10:47 --> Config Class Initialized
+INFO - 2025-03-10 15:10:47 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:47 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:47 --> URI Class Initialized
+INFO - 2025-03-10 15:10:47 --> Router Class Initialized
+INFO - 2025-03-10 15:10:47 --> Output Class Initialized
+INFO - 2025-03-10 15:10:47 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:47 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:47 --> CSRF token verified
+INFO - 2025-03-10 15:10:47 --> Input Class Initialized
+INFO - 2025-03-10 15:10:47 --> Language Class Initialized
+INFO - 2025-03-10 15:10:48 --> Language Class Initialized
+INFO - 2025-03-10 15:10:48 --> Config Class Initialized
+INFO - 2025-03-10 15:10:48 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:48 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:48 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:48 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:48 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:48 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:48 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:48 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:48 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:48 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:48 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:48 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:48 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:48 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:48 --> Shift_management MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:48 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/models/Shift_model.php
+DEBUG - 2025-03-10 20:10:48 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
+INFO - 2025-03-10 20:10:48 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:48 --> Total execution time: 0.2933
+INFO - 2025-03-10 15:10:52 --> Config Class Initialized
+INFO - 2025-03-10 15:10:52 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:52 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:52 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:10:52 --> Router Class Initialized
+INFO - 2025-03-10 15:10:52 --> Output Class Initialized
+INFO - 2025-03-10 15:10:52 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:52 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:52 --> Input Class Initialized
+INFO - 2025-03-10 15:10:52 --> Language Class Initialized
+INFO - 2025-03-10 15:10:52 --> Language Class Initialized
+INFO - 2025-03-10 15:10:52 --> Config Class Initialized
+INFO - 2025-03-10 15:10:52 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:52 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:52 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:52 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:52 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:52 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:52 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:52 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:52 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:52 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:52 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:52 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:52 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:52 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+INFO - 2025-03-10 15:10:52 --> Config Class Initialized
+INFO - 2025-03-10 15:10:52 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:52 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:52 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:52 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:53 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/config/routes.php
+INFO - 2025-03-10 15:10:53 --> Router Class Initialized
+INFO - 2025-03-10 15:10:53 --> Output Class Initialized
+INFO - 2025-03-10 15:10:53 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:53 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:53 --> Input Class Initialized
+INFO - 2025-03-10 15:10:53 --> Language Class Initialized
+INFO - 2025-03-10 15:10:53 --> Language Class Initialized
+INFO - 2025-03-10 15:10:53 --> Config Class Initialized
+INFO - 2025-03-10 15:10:53 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:53 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:53 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:53 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:53 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:53 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:53 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:53 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:53 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:53 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:53 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:53 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:53 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:53 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:53 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:53 --> Mark MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:53 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/models/Marketing_model.php
+DEBUG - 2025-03-10 20:10:53 --> File loaded: C:\xampp\htdocs\HMS709\application\controllers/../modules/template/controllers/Template.php
+DEBUG - 2025-03-10 20:10:53 --> Template MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:53 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/models/Template_model.php
+DEBUG - 2025-03-10 20:10:54 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/head.php
+ERROR - 2025-03-10 20:10:56 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+ERROR - 2025-03-10 20:10:56 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\HMS709\application\modules\template\views\includes\sidebar.php 1075
+DEBUG - 2025-03-10 20:10:56 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/sidebar.php
+ERROR - 2025-03-10 20:10:56 --> Severity: Warning --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+ERROR - 2025-03-10 20:10:56 --> Severity: Warning --> file_get_contents(https://update.bdtask.com/xainhotel/autoupdate/update_info): Failed to open stream: php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\xampp\htdocs\HMS709\application\modules\template\views\includes\header.php 3
+DEBUG - 2025-03-10 20:10:57 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/header.php
+DEBUG - 2025-03-10 20:10:57 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/messages.php
+ERROR - 2025-03-10 20:10:57 --> Severity: Warning --> Undefined variable $facilitytype C:\xampp\htdocs\HMS709\application\modules\emailmark\views\nights.php 28
+DEBUG - 2025-03-10 20:10:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/emailmark/views/nights.php
+DEBUG - 2025-03-10 20:10:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/includes/footer.php
+DEBUG - 2025-03-10 20:10:58 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/template/views/layout.php
+INFO - 2025-03-10 20:10:58 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:58 --> Total execution time: 5.8188
+INFO - 2025-03-10 15:10:58 --> Config Class Initialized
+INFO - 2025-03-10 15:10:58 --> Hooks Class Initialized
+INFO - 2025-03-10 15:10:58 --> Config Class Initialized
+INFO - 2025-03-10 15:10:58 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:58 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:58 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:58 --> URI Class Initialized
+DEBUG - 2025-03-10 15:10:58 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:58 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:58 --> URI Class Initialized
+INFO - 2025-03-10 15:10:58 --> Router Class Initialized
+INFO - 2025-03-10 15:10:58 --> Router Class Initialized
+INFO - 2025-03-10 15:10:58 --> Output Class Initialized
+INFO - 2025-03-10 15:10:58 --> Output Class Initialized
+INFO - 2025-03-10 15:10:58 --> Security Class Initialized
+INFO - 2025-03-10 15:10:58 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:58 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:58 --> Input Class Initialized
+DEBUG - 2025-03-10 15:10:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:58 --> Language Class Initialized
+INFO - 2025-03-10 15:10:58 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:58 --> Input Class Initialized
+INFO - 2025-03-10 15:10:58 --> Language Class Initialized
+ERROR - 2025-03-10 15:10:58 --> 404 Page Not Found: /index
+INFO - 2025-03-10 15:10:58 --> Language Class Initialized
+INFO - 2025-03-10 15:10:58 --> Config Class Initialized
+INFO - 2025-03-10 15:10:58 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:58 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:58 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:58 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:58 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:58 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:58 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:58 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:58 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:59 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:59 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:59 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:59 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:59 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:59 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:59 --> Order MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:59 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Order_model.php
+DEBUG - 2025-03-10 20:10:59 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/ordermanage/models/Logs_model.php
+INFO - 2025-03-10 15:10:59 --> Config Class Initialized
+INFO - 2025-03-10 15:10:59 --> Hooks Class Initialized
+DEBUG - 2025-03-10 15:10:59 --> UTF-8 Support Enabled
+INFO - 2025-03-10 15:10:59 --> Utf8 Class Initialized
+INFO - 2025-03-10 15:10:59 --> URI Class Initialized
+INFO - 2025-03-10 15:10:59 --> Router Class Initialized
+INFO - 2025-03-10 15:10:59 --> Output Class Initialized
+INFO - 2025-03-10 15:10:59 --> Security Class Initialized
+DEBUG - 2025-03-10 15:10:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-10 15:10:59 --> CSRF cookie sent
+INFO - 2025-03-10 15:10:59 --> CSRF token verified
+INFO - 2025-03-10 15:10:59 --> Input Class Initialized
+INFO - 2025-03-10 15:10:59 --> Language Class Initialized
+INFO - 2025-03-10 15:10:59 --> Language Class Initialized
+INFO - 2025-03-10 15:10:59 --> Config Class Initialized
+INFO - 2025-03-10 15:10:59 --> Loader Class Initialized
+INFO - 2025-03-10 15:10:59 --> Helper loaded: url_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: file_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: html_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: form_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: text_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: dompdf_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: lang_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: directory_helper
+INFO - 2025-03-10 15:10:59 --> Database Driver Class Initialized
+INFO - 2025-03-10 15:10:59 --> Helper loaded: sslc_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: security_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: sys_helper
+INFO - 2025-03-10 15:10:59 --> Helper loaded: acc_helper
+INFO - 2025-03-10 15:10:59 --> Email Class Initialized
+DEBUG - 2025-03-10 15:10:59 --> Encryption: Auto-configured driver 'openssl'.
+INFO - 2025-03-10 15:10:59 --> Encryption: OpenSSL initialized with method AES-128-CBC.
+INFO - 2025-03-10 15:10:59 --> Encryption Class Initialized
+INFO - 2025-03-10 15:10:59 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-10 15:10:59 --> Cart Class Initialized
+INFO - 2025-03-10 15:10:59 --> Form Validation Class Initialized
+INFO - 2025-03-10 15:10:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2025-03-10 15:10:59 --> Pagination Class Initialized
+DEBUG - 2025-03-10 15:10:59 --> Config file loaded: C:\xampp\htdocs\HMS709\application\config/paypallib_config.php
+INFO - 2025-03-10 15:10:59 --> Controller Class Initialized
+DEBUG - 2025-03-10 20:10:59 --> Shift_management MX_Controller Initialized
+DEBUG - 2025-03-10 20:10:59 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/models/Shift_model.php
+DEBUG - 2025-03-10 20:10:59 --> File loaded: C:\xampp\htdocs\HMS709\application\modules/duty_roster/views/attenshift_view.php
+INFO - 2025-03-10 20:10:59 --> Final output sent to browser
+DEBUG - 2025-03-10 20:10:59 --> Total execution time: 0.2468

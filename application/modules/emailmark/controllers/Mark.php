@@ -197,4 +197,12 @@ class Mark  extends MX_Controller {
             }
             exit();
         }
+
+        public function delete_night($id) {
+          if ($this->Marketing_model->delete_night($id)) {
+            redirect('email-marketing/multi-nights');
+          } else {
+              echo json_encode(['status' => 'error', 'message' => 'Failed to delete service.']);
+          }
+      }
   }

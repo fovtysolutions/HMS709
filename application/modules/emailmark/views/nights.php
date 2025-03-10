@@ -219,8 +219,8 @@
                                                 <i class="ti-pencil-alt text-white" aria-hidden="true"></i>
                                             </a>
                                         <?php endif; ?>
-                                        <?php if($this->permission->method('data','delete')->access()): ?>
-                                            <a href="<?php echo base_url('emailmark/Mark/multiDelete/'.html_escape($mdata->id)) ?>" onclick="return confirm('<?php echo display('are_you_sure') ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete ">
+                                        <?php if($this->permission->method('emailmark','delete_night')->access()): ?>
+                                            <a href="<?php echo base_url('emailmark/Mark/delete_night/'.html_escape($mdata->id)) ?>" onclick="return confirm('<?php echo display('are_you_sure') ?>')" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="right" title="Delete ">
                                                 <i class="ti-trash"></i>
                                             </a>
                                         <?php endif; ?>
